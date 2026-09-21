@@ -19,7 +19,7 @@ web-oi2
             ├── obtener_mensajes_memoria.php
             ├── verificar_actualizacion_memoria.php
     └── 📁app
-        └── 📁model
+        └── 📁model                                         # Modelos DB
             ├── Conexion.php
             ├── Configuracion.php
             ├── Modulo.php
@@ -33,7 +33,7 @@ web-oi2
             ├── Usuario.php
             ├── Usuarios.php
             ├── Validator.php
-        └── 📁public_root
+        └── 📁public_root                                   #Recursos de la web (imagenes)
             └── 📁archivos
             └── 📁imgs
                 └── 📁audi_medicado
@@ -67,7 +67,7 @@ web-oi2
                 ├── icono linkedin.svg
                 ├── wsp icono.png
                 ├── wsp icono.svg
-        └── 📁utilities
+        └── 📁utilities                                             # Dependencias composer, phpmailer.
             └── 📁vendor
                 └── 📁composer
                     ├── autoload_classmap.php
@@ -162,9 +162,9 @@ web-oi2
             ├── composer.lock
             ├── Libs.php
             ├── StringLib.php
-        └── 📁view
-            └── 📁back_end
-                └── 📁dashlite
+        └── 📁view                                                      # Vistas / HTML
+            └── 📁back_end                                              # Vistas privadas, login, etc.
+                └── 📁dashlite                                          # Recursos (css, js, icons, imgs, fonts) de dashlite
                     └── 📁assets
                         └── 📁css
                             └── 📁editors
@@ -573,7 +573,7 @@ web-oi2
                     ├── tpl_layout.php
                     ├── tpl_login.php
                     ├── tpl_usuario.php
-            └── 📁front_end
+            └── 📁front_end                                             # Vistas públicas y recursos (css, imgs, tpls.php, includes.php).
                 └── 📁2025
                     └── 📁css
                         ├── audifonos_medicados.css
@@ -629,7 +629,7 @@ web-oi2
         ├── aril34555.php
         ├── views.php
     └── 📁dw-panel
-        ├── .htaccess
+        ├── .htaccess                                           # htaccess: Configuración de las URLs
         ├── ajax.php
         ├── inc.app.bottom.php
         ├── inc.app.top.php
@@ -639,11 +639,11 @@ web-oi2
     ├── .htaccess
     ├── ajax.php
     ├── error_log
-    ├── inc.aplication_top.php
+    ├── inc.aplication_top.php                                  # Configuración de sesion y base de datos.
     ├── inc.core.php
-    ├── index.php
+    ├── index.php                                               # Inicio de la web, include: inc.aplication_top.php y run.php
     ├── robots.php
-    ├── run.php
+    ├── run.php                                                 # Controlador define vista a mostrar por la url (param1,param2)
     ├── sitemap.php
     └── whatsapp-coexistence.php
 ```
