@@ -12,6 +12,6 @@ weboi2
 │               ├───css
 │               ├───img
 │               └───js
-├── index.php                        # Inicio de la web
+├── index.php                        # Inicio de la web, include: inc.aplication_top.php y run.php
 ├── inc.aplication_top.php           # Configuración de sesion y base de datos.
 ├── run.php                          # Controlador frontal, define vista a mostrar por la url (param1,param2)
